@@ -30,7 +30,6 @@ func main() {
 		fmt.Println("Default!")
 	}
 
-
 	t:=time.Now()
 	fmt.Println()
 	switch {
@@ -39,6 +38,4 @@ func main() {
 	case t.Hour() <17:
 		fmt.Println("afternoon")
 	}
-
-
 }
