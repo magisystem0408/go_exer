@@ -1,4 +1,4 @@
-package main
+package statement
 
 //deferはmain関数の処理が終わったら実行される
 import "fmt"

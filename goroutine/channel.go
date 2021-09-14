@@ -12,6 +12,7 @@ func goroutine(s []int,c chan int) {
 }
 
 func main() {
+
 	//スライスとチャネルを作る
 	s :=[]int{1,2,3,4,5}
 	c :=make(chan int)
@@ -22,3 +23,5 @@ func main() {
 	x := <-c
 	fmt.Println(x)
 }
+
+

@@ -1,9 +1,8 @@
-package main
+package statement
 
 import "fmt"
 
 func main() {
-
 
 	//ifぶん
 	num := 4
@@ -11,13 +10,12 @@ func main() {
 		fmt.Println("by 2")
 	} else if num%3 == 0 {
 
-
 	} else {
 		fmt.Println("else")
 	}
 
-	x,y :=11,12
-	if x ==10 && y==10{
+	x, y := 11, 12
+	if x == 10 && y == 10 {
 		fmt.Println("ff")
 	}
 
@@ -27,12 +25,11 @@ func main() {
 	}
 
 	//省略記法
-	sum :=1
-	for ; sum<10;{
-		sum+=sum
+	sum := 1
+	for sum < 10 {
+		sum += sum
 		fmt.Println(sum)
 	}
 	fmt.Println(sum)
-
 
 }
